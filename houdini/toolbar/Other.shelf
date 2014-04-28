@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shelfDocument>
+  <toolshelf name="other" label="Other">
+    <memberTool name="CamToEXR"/>
+  </toolshelf>
+
+  <tool name="CamToEXR" label="CamToEXR" icon="OBJ_camera">
+    <script scriptType="python"><![CDATA[import HoudiniCameraSetup
+HoudiniCameraSetup.CameraToExr()]]></script>
+  </tool>
+</shelfDocument>
