@@ -1,3 +1,3 @@
-# Menu file example with hotkey
+# Menu file example
 
 import ExportAnimationFromEXR
